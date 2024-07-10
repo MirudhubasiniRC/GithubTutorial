@@ -1,0 +1,17 @@
+I have Started to learn some of the cool git commands in MAC
+
+-- I checked whether i have my git installed in my folder :
+ git --version in my terminal if not install it using brew install git
+
+-- I you have many git hub accounts configure which one you want to use :
+    git config --global user.name "Your Name"
+    git config --global user.email "your_email@example.com"
+
+-- Navigate to your project folder 
+    cd /path/to/your/project
+    I used cd /documents/Git Tutorial
+
+
+--> First command git init
+you could be able to see something like this
+Reinitialized existing Git repository in /Users/xxx/Documents/GitTutorial/.git/
