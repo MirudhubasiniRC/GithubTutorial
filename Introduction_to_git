@@ -15,3 +15,45 @@ I have Started to learn some of the cool git commands in MAC
 --> First command git init
 you could be able to see something like this
 Reinitialized existing Git repository in /Users/xxx/Documents/GitTutorial/.git/
+
+--> git add .
+to add in your local repo(inside your machine)
+
+--> git commit -m "Initial commit"
+to save changes 
+
+xxx@xxxx-MacBook-Air GitTutorial % git commit -m "Initial changes"
+[master (root-commit) 65d7a01] Initial changes
+ 1 file changed, 17 insertions(+)
+ create mode 100644 Introduction_to_git
+
+TO ADD THE REMOTE REPOSITORY : IN YOUR GITHUB ACCOUNT
+
+create a repository in your account and then follow the below steps :
+
+--> copy the url after creating the repository
+
+--> git remote add origin https://github.com/your-username/your-repository.git
+
+--> git push -u origin master
+
+Problems i faced i did not get permission as i had two accounts something got mismatched
+https://gist.github.com/rahularity/86da20fe3858e6b311de068201d279e3
+copy paste this link to overcome this problem
+
+do this for both personal and office like thus
+ssh-add --apple-use-keychain ~/.ssh/github-mirudhu-personal
+ssh -T git@github.com-MirudhubasiniRC
+
+try cloning any one of the file from your account : 
+
+create a folder 
+cd created- folder name:
+git clone git@github.com-MirudhubasiniRC:MirudhubasiniRC/Mirudhu-about.git
+
+
+
+
+
+
+

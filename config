@@ -1,0 +1,11 @@
+#mirudhu-office account
+     Host github.com-Mirudhubasini-RC
+          HostName github.com
+          User git
+          IdentityFile ~/.ssh/github-mirudhu-office
+
+     #mirudhu-personal account
+     Host github.com-MirudhubasiniRC
+          HostName github.com
+          User git
+          IdentityFile ~/.ssh/github-mirudhu-personal
